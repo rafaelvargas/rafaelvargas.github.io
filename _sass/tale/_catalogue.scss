@@ -37,7 +37,13 @@
     width: 2rem;
   }
 
-  p { 
+  p {
     text-align: justify;
+  }
+
+  @media (max-width: 760px) {
+    p {
+      text-align: left;
+    }  
   }
 }

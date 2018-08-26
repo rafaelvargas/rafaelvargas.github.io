@@ -32,6 +32,13 @@
     text-align: justify;
   }
 
+  @media (max-width: 760px) {
+    p {
+      margin: 0 0 1rem;
+      text-align: left;
+    }  
+  }
+
   a:hover {
     text-decoration: underline;
   }
