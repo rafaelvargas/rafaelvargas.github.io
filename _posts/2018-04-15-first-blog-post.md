@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First Blog Post"
+subtitle: "Let the magic begin!"
 ---
 
 ### Hello, World!!
