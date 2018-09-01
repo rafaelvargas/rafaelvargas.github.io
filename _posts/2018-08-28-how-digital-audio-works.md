@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Digital Audio Works?"
-subtitle: "A brief explanation of how sound is represented and manipulated in the digital world."
+subtitle: "A brief explanation on how sound is represented and manipulated in the digital world."
 use_math: true
 ---
 
@@ -14,11 +14,11 @@ So, to understand more deeply the ideias introduced earlier, some basic concepts
 ## Sample rate
 It is used to designate the frequency in which sound is sampled per unit of time. An image is shown below to illustrate the concept. 
 
-![](../assets/posts/how-digital-audio-works/sample_rate.png "Sample Rate")
+![](../assets/posts/how-digital-audio-works/sample-rate.png "Sample Rate")
 
 _Image from [wikipedia](https://en.wikipedia.org/wiki/Sampling_(signal_processing))_
 
-What is shown in the image is that the analog signal **S(t)** is sampled periodically at a **T** time interval, matching an amplitude value to every discrete time i. In this case, we end up by having 14 values **(0..13)** that represent the analog signal digitally with a sample rate of **1/T**
+What is shown in the image is that the analog signal ***S(t)*** is sampled periodically at a ***T*** time interval, matching an amplitude value to every discrete time ***i***. In this case, we end up by having 14 values **(0..13)** that represent the analog signal digitally with a sample rate of ***1 / T***
  _(see how frequency relates to period **T** [here](https://en.wikipedia.org/wiki/Frequency#Definitions))_. 
 
 The used sample rate can vary depending on the how the sound will be used. Music audio usually have a sample rate of 44.100Hz, while audios from movies, for example, can have a rate of 192.000Hz. These rates are directly related on how realistic the audio will be perceived, as well as how wholesome it will be stored as discrete information. These peculiarities are briefly described by the _[sampling theorem](#sampling-theorem)_.
@@ -26,11 +26,11 @@ The used sample rate can vary depending on the how the sound will be used. Music
 
 
 ## Sampling theorem
-According to the Nyquist-Shannon Sampling Theorem, to properly reconstruct an analog signal after its sampling, it should be done using a minimum sampling frequency **F*s***, that needs to be _greater or equal_ to **2F*h***, where **F*h*** is the highest frequency component of the signal being sampled. The equation is shown below:
+According to the Nyquist-Shannon Sampling Theorem, to properly reconstruct an analog signal after its sampling, it must be sampled using a minimum sampling frequency **F*s***, that needs to be _greater or equal_ to **2F*h***, where **F*h*** is the highest frequency component of the signal being sampled. The equation is shown below:
 
 $$ F_{sampling} \geq 2F_{highest} $$
 
-**F*h***  is also called the _Nyquist frequency_ and the inverse of the minimum sampling frequency **1/F*s*** is known as the _Nyquist rate_.
+**F*h***  is also called the _Nyquist frequency_ and the inverse of the minimum sampling frequency **1 / F*s*** is known as the _Nyquist rate_.
 
 
 ## Sample format
