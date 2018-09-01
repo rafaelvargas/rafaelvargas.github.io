@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How Digital Sound Works?"
+title: "How Digital Audio Works?"
 subtitle: "A brief explanation of how sound is represented and manipulated in the digital world."
 use_math: true
 ---
