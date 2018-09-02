@@ -30,12 +30,14 @@
   gtag('config', '{{ site.google_analytics }}');
   </script>
 
-  {% if page.use_math != false %}
-  
+  {% if page.use_math %}
+  {% if page.use_math == true %}
+
   <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
   </script>
   
+  {% endif %}
   {% endif %}
 
 </head>
