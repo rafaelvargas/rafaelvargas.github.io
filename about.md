@@ -9,9 +9,11 @@ Hello there!! I'm _**Rafael Vargas**_, a undergraduate Computer Science student 
 
 ### Contact
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fab fa-github fa-lg"></i> &nbsp;&nbsp; [rafaelvargas]({{ 'https://github.com/' | append: site.author.github }})
+<i class="fab fa-github fa-lg"></i> &nbsp;&nbsp; [rafaelvargas]({{ 'https://github.com/' | append: site.author.github }})
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp; [rafaelflvargas@gmail.com](mailto: rafaelflvargas@gmail.com)
+<i class="fab fa-linkedin fa-lg"></i> &nbsp;&nbsp; [rafaelflvargas]({{ 'https://linkedin.com/in/' | append: site.author.linkedin }})
+
+<i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp; [rafaelflvargas@gmail.com](mailto: rafaelflvargas@gmail.com)
 
 
 ### Contribute
