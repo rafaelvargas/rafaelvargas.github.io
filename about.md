@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-Hello there!! I'm _**Rafael Vargas**_, a undergraduate Computer Science student at [_UFRGS_](http://www.inf.ufrgs.br/site/). In this blog, I intend to write posts about many projects and stuff I like to do. It will be a space for sharing my personal experiences in Computer Science and in my life.
+Hello there!! I'm **Rafael Vargas**, a undergraduate Computer Science student at [UFRGS](http://www.inf.ufrgs.br/site/). In this blog, I intend to write posts about many projects and stuff I like to do. It will be a space for sharing my personal experiences in Computer Science and in my life.
 
 
 ### Contact
@@ -18,7 +18,7 @@ Hello there!! I'm _**Rafael Vargas**_, a undergraduate Computer Science student 
 
 ### Contribute
 
-Feel  free to contribute on [GitHub blog's repository]({{ site.repository }}) 👍🏼. 
+Feel free to contribute on [GitHub blog's repository]({{ site.repository }}) 👍🏼. 
 
 ### Blog Development
 
