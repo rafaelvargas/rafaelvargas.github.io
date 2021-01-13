@@ -26,8 +26,48 @@ You can also easily scale your environment [horizontally](https://en.wikipedia.o
 
 ## Managed Airflow instances disadvantages
 
+The idea of focusing on business problems by using the managed instances is interesting. The idea, however, has some limitations. 
 
 ### Customization
 
+Let's suppose you want to install a specific [ODBC](https://en.wikipedia.org/wiki/Open_Database_Connectivity) driver to connect with a database that is maintained by your company, to extract the data that is stored in it. You probally won't be able to do it, because you won't have control of the servers that are running the instances. 
+
+Another possible limitation is that, if you wanted to write custom Airflow components, like a custom authentication backend, for example, you won't be able as well.
+
 ### Cost
+
+One of the most important aspects of the choice of using or not using this type of solutions is related to its cost. Let's analyse some  at the moment this post is being written:
+
+#### Amazon
+
+Considering a small size environment at the region US East (N. Virginia):
+
+Specifications: 
+
+- Scheduler: 1 vCPU
+- Worker: 1 vCPU
+- Web Server: 0.5 vCPU
+
+Prices:
+
+- Environment: $0.49 per hour
+- Worker price: $0.055
+- Metadata storage: $0.10 per GB-Month
+
+Supposing 9 additional workers are used for one hour a day, and 5GB of metadata being generated per month, we would have:
+
+- Environment charge: 31 days * 24h * $0.49 = $364.56 
+- Workers charge: 31 days * 1h * $0.055 = $15.34
+- Metadata storage: 5GB * $0.10 = $0.5
+
+**Total**: $380.40
+
+
+Source can be found in [here](https://aws.amazon.com/managed-workflows-for-apache-airflow/pricing/
+). 
+#### Google
+
+
+
+
 
