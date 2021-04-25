@@ -28,6 +28,31 @@
     width: 4rem;
   }
 
+  &-tag-line {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  &-tag {
+    @include transition(all .3s ease-out);
+    margin: 0 2px;
+    padding: 2px 8px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    background: $default-color;
+    opacity: .6;
+    border-radius: 25px;
+    font-family: $serif-secondary;
+    font-size: 16px;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+
+    }
+  }
+
   p {
     margin: 0 0 1rem;
     text-align: justify;
