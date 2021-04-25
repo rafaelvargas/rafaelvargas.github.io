@@ -3,6 +3,7 @@ layout: post
 title: "How Digital Audio Works?"
 subtitle: "A brief explanation on how sound is represented and manipulated in the digital world."
 use_math: true
+tags: random audio
 ---
 
 Sound, as we know, is formed by a set of mechanical waves that travel through the air (and other transmission mediums). As they reach our ears, we end by perceiving these waves as vibration that are interpreted by our brain.

@@ -3,6 +3,7 @@ layout: post
 title: "Traffic Accidents Data Analysis"
 subtitle: "An analysis of Porto Alegre's traffic accidents data."
 use_bokeh: true
+tags: data-analysis data-visualization
 ---
 
 Traffic accidents are a problem worldwide. According to the [World Health Organization](https://www.who.int/), at the end of 2018, traffic accidents were the major cause of death among young people aged 5-29 years. In the Americas, according to the [Pan American Health Organization](https://www.paho.org/), the numbers are as alarming as the worldwide ones, being the second major cause of deaths among the population of the same age group, only being lower than the number of homicide deaths. 
