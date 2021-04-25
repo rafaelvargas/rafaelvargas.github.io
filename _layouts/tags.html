@@ -1,0 +1,22 @@
+---
+layout: post
+---
+
+<div class="catalogue">
+    {% assign sorted_tags = site.tags | sort %}
+    {% for tag in sorted_tags %}
+
+        {% assign words = tag[0] | split: '-' %}
+        {% capture tag_name %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+
+        <div class="catalogue-item" style="width: auto !important; left: 0px; right: 0px;;">
+            <h1 id="{{ tag[0] }}" class="catalogue-title">{{ tag_name }}</h1>
+            <div class="catalogue-line"></div>
+            <ul>
+                {% for post in tag[1] %}
+                <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+</div>

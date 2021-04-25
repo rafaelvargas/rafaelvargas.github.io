@@ -2,7 +2,7 @@
 layout: post
 title: "Managed Airflow Instances"
 subtitle: "Are they really worth it?"
-tags: data-engineering airflow
+tags: data-engineering
 ---
 
 I've been reading about the managed Airflow instances solutions that some cloud service providers sell. Google, with its [Google Cloud Composer](https://cloud.google.com/composer/docs/concepts/overview) and Amazon, with its [Amazon Managed Workflows](https://aws.amazon.com/managed-workflows-for-apache-airflow/), are some of the examples. At first glance, they seem to look similar: both provide the benefits of not generating concerns about the maintenance of the infrastruture that runs the Airflow instances. But, are they really worth it?
