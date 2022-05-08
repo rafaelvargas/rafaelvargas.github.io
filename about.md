@@ -4,10 +4,14 @@ title: "About"
 permalink: /about/
 ---
 
-Hello there!! I'm **Rafael Vargas**, a undergraduate Computer Science student at [UFRGS](http://www.inf.ufrgs.br/site/). In this blog, I intend to write posts about many projects and stuff I like to do. It will be a space for sharing my personal experiences in Computer Science and in my life.
+Hello, visitor! My name is **Rafael Vargas**. I’m a professional who likes to work on the implementation of systems that use data, at large scale, for analytical purposes. Currently, I work as the leader of the Data Engineering team at [Nelogica](https://www.nelogica.com.br/) (a fintech that develops electronic trading platforms). 
+
+I seek to work on challenging problems, which often require interaction with stakeholders, to generate viable technical solutions that meet business requirements. I strongly believe, as a Software Engineer/Leader, that the ability to intersect the business domain concepts with computer science concepts is essential to generate value.
 
 
 ### Contact
+
+Feel free to get in touch!
 
 <i class="fab fa-github fa-lg"></i> &nbsp;&nbsp; [rafaelvargas]({{ 'https://github.com/' | append: site.author.github }})
 
@@ -18,8 +22,8 @@ Hello there!! I'm **Rafael Vargas**, a undergraduate Computer Science student at
 
 ### Contribute
 
-Feel free to contribute on [GitHub blog's repository]({{ site.repository }}) 👍🏼. 
+Feel free to contribute to this website by opening a Pull Request in its [repository]({{ site.repository }}). 
 
 ### Blog Development
 
-Made with [Jekyll](https://github.com/jekyll/jekyll) based on [Tale](https://github.com/chesterhow/tale/) theme.
+Made using [Jekyll](https://github.com/jekyll/jekyll), based on [Tale](https://github.com/chesterhow/tale/) theme.
