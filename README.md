@@ -1,4 +1,4 @@
-# Rafael Vargas' Page
+# Rafael Vargas' Website
 
 ## Made with
 

@@ -22,7 +22,7 @@ Feel free to get in touch!
 
 ### Contribute
 
-Feel free to contribute to this website by opening a Pull Request in its [repository]({{ site.repository }}). 
+Feel free to contribute to this website by opening pull requests or creating issues in its [repository]({{ site.repository }}). 
 
 ### Blog Development
 
