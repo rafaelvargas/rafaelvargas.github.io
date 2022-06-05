@@ -17,7 +17,7 @@ Feel free to get in touch!
 
 <i class="fab fa-linkedin fa-lg"></i> &nbsp;&nbsp; [rafaelflvargas]({{ 'https://linkedin.com/in/' | append: site.author.linkedin }})
 
-<i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp; [rafaelflvargas@gmail.com](mailto: rafaelflvargas@gmail.com)
+<i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp; [contact@rafaelvargas.dev](mailto: contact@rafaelvargas.dev)
 
 
 ### Contribute
