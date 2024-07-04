@@ -22,11 +22,3 @@ Feel free to get in touch!
 
 <i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp; [contact@rafaelvargas.dev](mailto: contact@rafaelvargas.dev)
 
-
-### Contribute
-
-Feel free to contribute to this website by opening pull requests or creating issues in its [repository]({{ site.repository }}). 
-
-### Blog Development
-
-Made using [Jekyll](https://github.com/jekyll/jekyll), based on [Tale](https://github.com/chesterhow/tale/) theme.
