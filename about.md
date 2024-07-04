@@ -4,16 +4,19 @@ title: "About"
 permalink: /about/
 ---
 
-Hello, visitor! My name is **Rafael Vargas**. I’m a professional who likes to work on the implementation of systems that use data, at large scale, for analytical purposes. Currently, I work as the leader of the Data Engineering team at [Nelogica](https://www.nelogica.com.br/) (a fintech that develops electronic trading platforms). 
+Hello, visitor! My name is **Rafael Vargas**. I specialize in designing and implementing systems that aim to facilitate the usage of data for analytical purposes, while also enabling the development of innovative features/tools for end users. Currently, I work as a Senior Analytics Engineer at [Nubank](https://international.nubank.com.br/about/) (the world’s largest digital banking platform outside of Asia). 
 
-I seek to work on challenging problems, which often require interaction with stakeholders, to generate viable technical solutions that meet business requirements. I strongly believe, as a Software Engineer/Leader, that the ability to intersect the business domain concepts with computer science concepts is essential to generate value.
+If you want to know more about my career, check my [LinkedIn]({{ 'https://linkedin.com/in/' | append: site.author.linkedin }}) profile.
+
+
+### Portfolio
+
+<i class="fab fa-github fa-lg"></i> &nbsp;&nbsp; [rafaelvargas]({{ 'https://github.com/' | append: site.author.github }})
 
 
 ### Contact
 
 Feel free to get in touch!
-
-<i class="fab fa-github fa-lg"></i> &nbsp;&nbsp; [rafaelvargas]({{ 'https://github.com/' | append: site.author.github }})
 
 <i class="fab fa-linkedin fa-lg"></i> &nbsp;&nbsp; [rafaelflvargas]({{ 'https://linkedin.com/in/' | append: site.author.linkedin }})
 
