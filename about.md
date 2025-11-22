@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-Hello, visitor! My name is **Rafael Vargas**. I specialize in designing and implementing systems that aim to facilitate the usage of data for analytical purposes, while also enabling the development of innovative features/tools for end users. Currently, I work as a Senior Analytics Engineer at [Nubank](https://international.nubank.com.br/about/) (the world’s largest digital banking platform outside of Asia). 
+Hello, visitor! My name is **Rafael Vargas**. I specialize in designing and implementing systems that aim to facilitate the usage of data for analytical purposes, while also enabling the development of innovative features/tools for end users. Currently, I work as a Senior Analytics Engineer at [Nubank](https://international.nubank.com.br/about/). 
 
 If you want to know more about my career, check my [LinkedIn]({{ 'https://linkedin.com/in/' | append: site.author.linkedin }}) profile.
 
