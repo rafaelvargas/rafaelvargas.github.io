@@ -4,7 +4,7 @@
 
   &-info {
     color: $default-tint;
-    font-family: $serif-secondary;
+    font-family: $font-family-monospace;
     letter-spacing: 0.5px;
     text-align: center;
 
@@ -15,7 +15,7 @@
 
   &-title {
     color: $default-shade;
-    font-family: $sans-serif;
+    font-family: $font-family-base;
     font-size: 3rem;
     margin: 1rem auto;
     text-align: center;
@@ -43,7 +43,7 @@
     @include transition(all .2s ease-in-out);
     display: inline-block;
     padding: 4px 10px;
-    font-family: $sans-serif;
+    font-family: $font-family-base;
     font-size: 0.7rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -85,7 +85,7 @@
   img + em {
     color: $default-tint;
     display: block;
-    font-family: $sans-serif;
+    font-family: $font-family-base;
     font-size: 0.9rem;
     font-style: normal;
     text-align: center;
