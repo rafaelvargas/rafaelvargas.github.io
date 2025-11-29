@@ -2,7 +2,6 @@
 title:          Rafael Vargas
 description:    "Some tech stuff."
 repository:     https://github.com/rafaelvargas/rafaelvargas.github.io/
-domain:         rafaelvargas.dev
 url:            https://rafaelvargas.dev
 baseurl:        ""
 google_analytics: G-C2RXH4PPZ8
@@ -27,6 +26,8 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
