@@ -1,6 +1,6 @@
 # Site settings
 title:          Rafael Vargas
-description:    "Some tech stuff."
+description:    "Notes on data engineering, analytics and software engineering."
 repository:     https://github.com/rafaelvargas/rafaelvargas.github.io/
 url:            https://rafaelvargas.dev
 baseurl:        ""
@@ -9,10 +9,11 @@ google_analytics: G-C2RXH4PPZ8
 # Author
 author:
   name:         Rafael Vargas
-  url:          https://inf.ufrgs.br/~rflvargas
+  url:          https://rafaelvargas.dev/about/
   email:        contact@rafaelvargas.dev
   github:       rafaelvargas
   linkedin:     rafaelflvargas
+  twitter:      rafaelflvargas
 
 # Build settings
 markdown:       kramdown
@@ -28,9 +29,16 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+permalink:      /:year/:month/:day/:title/
+
+# Pagination
+paginate: 5
+paginate_path: "page/:num/"
 
 
+feed:
+  path: feed.xml
+  limit: 15
