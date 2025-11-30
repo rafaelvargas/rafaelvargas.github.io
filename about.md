@@ -11,16 +11,15 @@ If you want to know more about my career, check my [LinkedIn]({{ 'https://linked
 
 ### Portfolio
 
-<i class="fab fa-github fa-lg"></i> &nbsp;&nbsp; [rafaelvargas]({{ 'https://github.com/' | append: site.author.github }})
+<i class="fa-brands fa-github fa-lg"></i> &nbsp;&nbsp; [{{ site.author.github }}]({{ 'https://github.com/' | append: site.author.github }})
 
 
 ### Contact
 
 Feel free to get in touch!
 
-<i class="fab fa-linkedin fa-lg"></i> &nbsp;&nbsp; [rafaelflvargas]({{ 'https://linkedin.com/in/' | append: site.author.linkedin }})
+<i class="fa-brands fa-linkedin fa-lg"></i> &nbsp;&nbsp; [{{ site.author.linkedin }}]({{ 'https://linkedin.com/in/' | append: site.author.linkedin }})
 
-<i class="fab fa-twitter fa-lg"></i> &nbsp;&nbsp; [@{{ site.author.twitter }}]({{ 'https://x.com/' | append: site.author.twitter }})
+<i class="fa-brands fa-x-twitter fa-lg"></i> &nbsp;&nbsp; [@{{ site.author.twitter }}]({{ 'https://x.com/' | append: site.author.twitter }})
 
-<i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp; [contact@rafaelvargas.dev](mailto: contact@rafaelvargas.dev)
-
+<i class="fas fa-envelope fa-lg"></i> &nbsp;&nbsp; [{{ site.author.email }}](mailto: {{ site.author.email }})
